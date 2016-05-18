@@ -1,6 +1,6 @@
 # Start with cuDNN base image
 # TODO: Change when cuDNN v4 supported
-FROM nvidia/cuda:7.5-cudnn5-runtime-ubuntu14.04
+FROM nvidia/cuda:7.5-cudnn5-devel-ubuntu14.04
 MAINTAINER Philipz <philipzheng@gmail.com>
 
 # Install git and other dependencies
